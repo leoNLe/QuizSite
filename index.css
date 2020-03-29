@@ -1,0 +1,7 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0% 10%;
+    font-size:  30px;
+}
