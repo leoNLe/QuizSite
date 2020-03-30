@@ -1,0 +1,1 @@
+Quiz web application used for practice basic Javascript and DOM manipulation.

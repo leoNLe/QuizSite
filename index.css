@@ -2,6 +2,99 @@
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    margin: 0% 10%;
+    margin: 0% 0%;
     font-size:  30px;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+#feedback,
+#display {
+    margin: 0% 20%;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.introText {
+    padding-bottom: 2rem;
+}
+.btn { 
+    background-color: #4CAF50;
+    padding: 1rem 1.5rem;
+    text-align:  center;
+    margin: auto auto;
+}
+
+
+#display {
+    margin-top: 5%;
+}
+
+.answerDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70%;
+}
+
+.answerDiv a {
+    margin-bottom: .25rem;
+    background-color: #48AAAD;
+    padding-left: 5%;
+    overflow: auto;
+    color: whitesmoke;
+}
+
+.question{
+    font-size: 30px;
+}
+.backTest {
+    visibility: hidden;
+}
+
+.scoreList {
+    margin: 5% 20%;
+    font-size: 20px;
+}
+
+.scoreList li {
+    padding-left: 1rem;
+}
+
+
+.endSubmitDiv{
+    display: flex;
+    margin-left: 1rem;
+    align-items: baseline;
+
+}
+
+.addScore {
+    background-color: teal;
+    margin: .5rem 1rem;
+    padding: .5rem 1rem;
+}
+.input {
+    height: 1.7rem;
+}
+.answerAnchor:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    #feedback,
+    #display {
+        margin: 5% 0 0 0;
+        line-height: 1.5rem;
+    }
+
+    .btn {
+        padding: .5rem 1rem;
+    }
+
+    .head{
+        font-size: 25px;
+    }
 }
